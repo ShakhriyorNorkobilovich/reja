@@ -1,0 +1,19 @@
+{
+"name": "Khan",
+"profession": "Software Engineer",
+"residence":"S.Korea",
+"adress": "S.Korea, Busan",
+"languages": ["Uzbek", "Turkish", "Kazakh", "Russia", "English", "Korean"],
+"skills": ["Html", "Css", "Js", "NodeJs", "Python"],
+"extra_skills": ["Bootsrap, Materialize", "Styling, Sass", "Django, Flask", "GIT Knowledge"],
+"work_place": "IT Company",
+"service_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollitAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit",
+"about_me": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+"city": "Karshi",
+"title": ["Flower", "Seedlings", "Gardner", "Old", "New"],
+"flower_desc": ["What is a Flower?", "What is a Seedling?", "Who is Gardner?"],
+"flower_name": ["Tulip", "Daffodil", "Poppy", "Sunflower", "Bluebell", "Rose", "Snowdrop", "Cherry", "Blossom"],
+"flower_price": ["15$", "25$", "12$", "20$", "35$", "30$", "22$", "19$", "9$"],
+"famous_words": ["World is Beutiful with Flowers"],
+"famous_name": ["Ilon Mask"]
+}
