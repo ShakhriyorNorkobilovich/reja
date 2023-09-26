@@ -6,7 +6,36 @@
 console.log("TRAIN AREA!");
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Shop {
+
+
+
     constructor(maxsulot_1, maxsulot_2, maxsulot_3) {
       this.products = {
         non: maxsulot_1,
@@ -59,3 +88,9 @@ class Shop {
   
   shop.remaining(); 
   
+
+
+
+
+
+
