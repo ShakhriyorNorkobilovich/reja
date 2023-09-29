@@ -10,7 +10,7 @@ const list = [
 
 
 
-//Callback
+//Callback function
 function maslaxatBering(a, callback) { 
         if (typeof a !=='number') callback ("insert a number", null);
         else if(a <= 20) callback (null, list[0]); 
@@ -40,7 +40,7 @@ console.log("passed here 1");
 
 
 
-
+//ASYNC function
 // async function maslaxatBering(a) { //callback
 //     if(typeof a !=='number') throw new Error ("insert a number"); //callback null
 //     else if(a <= 20) return list[0];  //callback(null, )
@@ -64,7 +64,7 @@ console.log("passed here 1");
 //     }
 // }
 
-//then /catch
+// call via then /catch
 
 
 /*console.log('passed here 1');
@@ -103,7 +103,7 @@ console.log('passed here 1');
 // console.log('passed here 1');
 
 
-//async/await
+//call via async/await
 // async function run(){
 //     let javob = await maslaxatBering(25); //20 //65 //25
 //     console.log(javob);
