@@ -1,22 +1,20 @@
-console.log("Web serverni boshlash");
-const express = require ("express");
-const res = require ("express/lib/response");
+// console.log('Web serverni boshlash');
+const express = require("express");
 const app = express();
 
+const fs = require("fs");
+// MongoDB chaqirish
+const db = require("./server").db();
 
-/*
 let user;
-fs.readFile("database/user.json", "utf8", (err, data) => {
-    if(err) {
+fs.readFile("database/user.json", "utf-8", (err, data)=>{
+    if(err){
         console.log("ERROR:", err);
     }else{
         user = JSON.parse(data);
     }
-})
-*/
+});
 
-//MongoDB chaqirish
-const db = require("./server").db();
 
 // 1: Kirish code
 app.use(express.static("public"));
@@ -35,7 +33,7 @@ app.post("/create-item", (req, res) => {
     const new_reja = req.body.reja;
    //console.log(req.body);
    db.collection("plans").insertOne({reja: new_reja}, (err,data) => {
-    console.log(data.ops);
+    //console.log(data.ops);
     res.json(data.ops[0]);
     // if(err) {
     //     console.log(err);
