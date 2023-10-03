@@ -20,7 +20,6 @@ fs.readFile("database/user.json", "utf-8", (err, data)=>{
 app.use(express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
-
 // 2: Session code
 
 // 3: View code
