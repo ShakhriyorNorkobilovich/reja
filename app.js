@@ -15,12 +15,12 @@ fs.readFile("database/user.json", "utf-8", (err, data)=>{
     }
 });
 
-// 1: Kirish kodlari. expressga kirib kelayotgan ma'lumotlarga bog'liq bo'lgan kodlar yoziladi.
-app.use(express.static("public")); // chrome express ga request qilayotgan payti public folderni clientlarga ochib beradi.
-app.use(express.json()); //kirib kelayotgan json farmatidagi datani objectga ugirib beradi.
-app.use(express.urlencoded({extended: false})); //html dan form request (form data post qilsa express qabul qilib oladi)
+// 1: Kirish 
+app.use(express.static("public")); 
+app.use(express.json()); 
+app.use(express.urlencoded({extended: false})); 
 
-// 2 Session larga bog'liq bo'lgan codelar yoziladi
+// 2 Session 
 
 // 3 View code
 app.set("views", "views");
@@ -43,7 +43,7 @@ app.post("/delete-item", (req, res)=>{
         {_id: new mongodb.ObjectId(id)}, 
         (err, data)=>{
         res.json({state: "success"});
-    }); //mongo db ning object idsini typesiga wrap qilgan bolishi kerak.
+    }); 
     
 });
 
